@@ -14,6 +14,60 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textSize="30sp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:text="JOB MANAGEMENT"/>
+            <TextView
+                android:id="@+id/qstn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:textSize="22dp"
+                android:text="is work sart at time ?"/>
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="Yes/No"
+                android:layout_below="@+id/qstn"/>
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_cam"
+                android:layout_width="60sp"
+                android:layout_height="50sp"
+                android:padding="5dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:background="@mipmap/cam"/>
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_call"
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:padding="5dp"
+                android:layout_marginBottom="5sp"
+                android:textColor="@color/colorPrimary"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@id/btn_cam"
+                android:background="@mipmap/call"/>
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_upload"
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:padding="5dp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginBottom="5sp"
+                android:textColor="@color/colorPrimary"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@id/btn_call"
+                android:background="@mipmap/upload"/>
         <android.support.v7.widget.AppCompatButton
             android:id="@+id/btn_next"
             android:layout_width="wrap_content"
